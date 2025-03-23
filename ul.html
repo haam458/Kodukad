@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu Teine proov</title>
+    <link rel="icon" type="image/png" href="apple-touch-icon.png">
+    <style>.highlight{ background-color: yellow;}</style>
+</head>
+<body>
+<h3>Vormide loomine</h3>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kasutaja nimi:</td>
+                <td><form><input name="otsing"type="search" list="minu_valik" size="20"></form></td>
+            </tr>
+            <tr>
+                <td>Kursus:</td>
+                <td><form><input name="otsing"type="search" list="minu_valik" size="20"></form></td>
+            </tr>
+            <tr>
+                <td>Osakonna number:</td>
+                <td><form><input type="number" value="1" min="1" max="10" step="1"></form></td>
+            </tr>
+            <tr>
+                <td>Parool:</td>
+                <td><form><input name="otsing"type="search" list="minu_valik" size="20"></form></td>
+            </tr>
+            <tr>
+                <td>Vali teenus:</td>
+                <td>
+                    <form>
+                    <select>
+                        <option value="">-- Vali teenus --</option>
+                        <option value="odav"> Odav 0,59€ </option>
+                        <option value="kesk"> Keskmine 2,59€ </option>
+                        <option value="kall"> Kallis 5,00€ </option>
+                    </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+               <td>Roll:</td> 
+                <td>
+                    <form>
+                        <input type="radio" name="roll" value="admin"> Admin <br>
+                        <input type="radio" name="roll" value="mode"> Moderaator <br>
+                        <input type="radio" name="roll" value="use"> User <br>   
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Nõustun tingimustega:</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Enesetutvustus:</td>
+                <td>
+                    <form>
+                        <textarea rows="10" cols="20"></textarea>
+                    </form>
+                </td>    
+            </tr>
+        </tbody>
+    </table>
+</body>
