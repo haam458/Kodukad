@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minu Teine proov</title>
     <link rel="icon" type="image/png" href="apple-touch-icon.png">
+    <style>.highlight{color: gray;}</style>
 </head>
 <body>
 <h3>Vormide loomine</h3>
@@ -18,12 +19,15 @@
         <tbody>
             <tr>
                 <td>Kasutaja nimi:</td>
-                <td><form><input name="otsing"type="search" list="minu_valik" size="20"></form></td>
+                <td><form>
+                    <input name="otsing"type="search" size="20">
+                    <span value="max pikkus 6" class="highlight">max pikkus 6</span></form>
+                </td>
             </tr>
                 
             <tr>
                 <td>Kursus:</td>
-                <td><form><input name="otsing"type="search" list="minu_valik" size="20"></form></td>
+                <td><form><input name="otsing"type="search" size="20"></form></td>
             </tr>
             <br>
             <tr>
@@ -71,11 +75,8 @@
                 </td>    
             </tr>
             <tr>
-                <td>
-                    <form>
-
-                    </form>
-                </td>
+                <td><form><input value="Tühjenda väljad" name="reg" type="submit"></form></td>
+                <td><form><input value="registreeru" name="clr" type="reset"></form></td>
             </tr>
 
         </tbody>
